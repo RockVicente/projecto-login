@@ -43,7 +43,7 @@ fieldset{
     width: 350px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.771);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.771);
     border-radius: 20px;
 }
 
@@ -64,6 +64,11 @@ input {
     width: 200px;
 }
 
-.submit{
+#submit{
     width: 222px;
+    background-color: var(--cor2);
+}
+
+#submit:hover{
+    background-color:#d768e5a4;
 }
