@@ -5,7 +5,7 @@
     --cor2:#B98ABF;
     --cor3:#664A8C;
     --cor4:#0E0726;
-    --cor5:#1A1040;
+    --cor5:#1a10407c;
 }
 
 *{
@@ -28,13 +28,11 @@ section{
     top: 20vh;
     height: 400px;
     width: 100vw;
-    background-color: var(--cor1);
 }
 
 div{
     position: relative;
     top: 9vh;
-    background-color: var(--cor5);
 }
 
 fieldset{
@@ -43,8 +41,9 @@ fieldset{
     width: 350px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.771);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.334);
     border-radius: 20px;
+    background: var(--cor5);
 }
 
 legend{
