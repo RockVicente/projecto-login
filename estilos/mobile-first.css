@@ -23,6 +23,7 @@ body{
     color: white;
     background-size: cover;
 }
+
 main{
     height: 100vh;
     width: 100vw;
@@ -36,62 +37,51 @@ section#login{
 
     height: 500px;
     width: 350px;
-    background-color: var(--cor4);
+    background-color: var(--cor5);
     border-radius: 20px;
     overflow: hidden;
-}
 
-div{
-    text-align: center;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#imagem-login{
     display: block;
-    background: var(--cor1) url('../imagens/section-celular.jpg') center no-repeat fixed;
+    background:url('../imagens/section-celular.jpg') center no-repeat fixed;
     background-size: cover;
     height:200px;
 }
 
 div#formulario{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    height: 600px;
-    background: var(--cor4);
     display: block; 
+    height:600px;
+    background: var(--cor1);  
 }
 
-h1{
-    font-size: 2em;
-    padding-top: 20px;
+.formulario{
+    text-align: center;
+    padding-top: 10px;
 }
 
 p{
-    display: block;
-    margin: auto;
-    padding-bottom: 10px;
-    font-size: 1.1em;
-}
-form{
-    background-color: var(--cor1);
-
+    margin: 5px;
+    padding: 5px;
 }
 
-input {
-    text-align: center;
+input{
+    width: 250px;
     padding: 8px;
-    margin-bottom: 10px;
+    margin: 5px;
     border-radius: 10px;
-    width: 200px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
 }
 
-#submit{
-    width: 202px;
+.entrada-dados{
     background-color: var(--cor2);
+    color:#4359a5;
 }
 
-#submit:hover{
-    background-color:#d768e5a4;
+.entrada-dados:hover{
+    background-color: var(--cor3);
+    color: white;
 }

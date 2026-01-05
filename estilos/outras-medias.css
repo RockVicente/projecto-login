@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+    section#login{
+        width: 90vw;
+    }
+
+    div#imagem-login{
+        float: left;
+        width: 35%;
+        height: 100%;
+        background:url('../imagens/section-celular.jpg') center no-repeat fixed;
+        background-size: cover;
+    }
+
+    div#formulario{
+        float:right;
+        width: 65%;
+    }
+
+}
+
+@media screen and (min-width:950px) {
+    section#login{
+        width: 70vw;
+    }
+
+    div#imagem-login{
+        float: right;
+        width: 50%;
+        height: 100%;
+        background:url('../imagens/section-celular.jpg') center no-repeat fixed;
+        background-size: cover;
+    }
+
+    div#formulario{
+        float:left;
+        width: 50%;
+    }
+}
