@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+:root{
+    --cor1:#D196D9;
+    --cor2:#B98ABF;
+    --cor3:#664A8C;
+    --cor4:#0E0726;
+    --cor5:#1A1040;
+}
+
 *{
-    
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    width: 100vw;
+}
+
+body{
+    background-color: ;
 }
