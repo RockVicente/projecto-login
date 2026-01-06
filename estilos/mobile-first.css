@@ -67,49 +67,77 @@ p{
     padding: 5px;
 }
 
-form > i{
-    margin-top: 8px;
+form > div.campo{
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
 
-input{
-    width: 250px;
-    padding: 8px;
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
+div.campo > i{
+    color:var(--cor1);
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
-label{
+.campo > input{
+    font-size: 1em;
+    width: calc(90% - 44px);
+    transform: translateY(-12px);
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form label{
     display: none;
 }
 
-.entrada-dados{
+form > input, a{
+    display: block;
+    margin: auto;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
     background-color: var(--cor2);
-    color:#4359a5;
+    color: var(--cor3);
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.entrada-dados:hover{
+form > input[type=submit]:hover{
     background-color: var(--cor3);
     color: white;
 }
 
-a{
+form > a.esqueci-senha{
     display: block;
-    margin: 5px auto;
-    text-decoration: none;
-    color:#4359a5;
-    background-color: var(--cor2);
     text-align: center;
-    padding: 2px;
-    width: 250px;
-    border:2px 2px 2px solid black ;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: var(--cor2);
+   
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--cor3);
+    cursor: pointer;
 }
 
-.esqueci-senha:hover{
+form > a.esqueci-senha:hover{
     background-color: var(--cor3);
     color: white;
+}
+
+form > a.esqueci-senha > i{
+    font-size: 0.8em;
 }
