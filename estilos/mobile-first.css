@@ -84,11 +84,11 @@ div.campo > i{
 .campo > input{
     font-size: 1em;
     width: calc(90% - 44px);
-    transform: translateY(-12px);
     height: 100%;
     border: 0px;
     border-radius: 5px;
     padding: 5px;
+    transform: translateY(-12px);
 }
 
 form label{
