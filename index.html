@@ -7,11 +7,7 @@
     <link rel="stylesheet" href="estilos/mobile-first.css">
     <link rel="stylesheet" href="estilos/outras-medias.css">
     <script src="script/script.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_circle"/>
-    <!--
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=lock" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail_lock" />
--->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <main>
@@ -24,10 +20,16 @@
                     Bem-vindo!
                 </p>
                 <form action="login.php" autocomplete="off" method="post">
-                    <input type="email" name="email" id="iemail" required checked placeholder="seu e-mail"><br>
-                    <input type="password" name="senha" id="isenha" required checked placeholder="password"><br>
+                    <i class="material-icons">account_circle</i>
+                    <input type="email" name="email" id="iemail" required checked placeholder="seu e-mail">
+                    <label for="iemail">login</label><br>
+                    <i class="material-icons">lock</i>
+                    <input type="password" name="senha" id="isenha" required checked placeholder="password">
+                    <label for="isenha">lock</label><br>
                     <input type="submit" value="Entrar" class="entrada-dados"><br>
+                    <label for="submit">submit</label>
                     <input type="submit" value="esqueceu a senha?" class="entrada-dados">
+                    <i class="material-icons">mail_lock</i>
                 </form>
             </div>
         </section>

@@ -9,7 +9,7 @@
         float: left;
         width: 35%;
         height: 100%;
-        background:url('../imagens/section-celular.jpg') center no-repeat fixed;
+        background:url('../imagens/telas-grandes.jpg') center  center no-repeat fixed;
         background-size: cover;
     }
 
@@ -29,7 +29,7 @@
         float: right;
         width: 50%;
         height: 100%;
-        background:url('../imagens/section-celular.jpg') center no-repeat fixed;
+        background:url('../imagens/telas-grandes.jpg') center  center no-repeat fixed;
         background-size: cover;
     }
 

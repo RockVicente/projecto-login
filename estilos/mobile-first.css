@@ -54,8 +54,7 @@ div#imagem-login{
 
 div#formulario{
     display: block; 
-    height:600px;
-    background: var(--cor1);  
+    height:600px;   
 }
 
 .formulario{
